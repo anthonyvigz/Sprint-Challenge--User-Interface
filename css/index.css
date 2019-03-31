@@ -207,3 +207,50 @@ footer nav a {
 #box10 {
   background: dodgerblue;
 }
+
+/* ABOUT PAGE */
+
+.skylinepicture {
+}
+
+.about-page {
+  margin-bottom: 20px;
+  border-bottom: dotted black 2px;
+  padding: 20px;
+}
+
+.bigaboutcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.strategybox {
+  display: flex;
+  width: 375px;
+  flex-wrap: wrap;
+  margin: 0 20px 20px 20px;
+  border-bottom: dotted black 2px;
+  padding-bottom: 20px;
+}
+
+.stratimg {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    border: solid black 1.5px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.howweworkbox {
+    display: flex;
+    width: 375px;
+    flex-wrap: wrap;
+    margin: 0 20px 20px 20px;
+    border-bottom: dotted black 2px;
+    padding-bottom: 20px;
+}
