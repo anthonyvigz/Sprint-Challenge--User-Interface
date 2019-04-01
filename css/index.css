@@ -145,8 +145,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: 1s;
 }
 
+footer nav a:hover {
+    color: limegreen;
+    font-size: 1.25em;
+}
 
 .toplinks {
   display: flex;
@@ -162,8 +167,12 @@ footer nav a {
   color: black;
   font-size: 15px;
   font-weight: bold;
+  transition: 1s;
 }
 
+.toplinks a:hover {
+    font-size: 1.25em;
+}
 .highwayimg {
   margin-bottom: 20px;
 }
@@ -222,35 +231,58 @@ footer nav a {
 .bigaboutcontainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.strategybox {
-  display: flex;
-  width: 375px;
-  flex-wrap: wrap;
-  margin: 0 20px 20px 20px;
+.keybox {
   border-bottom: dotted black 2px;
   padding-bottom: 20px;
+  width: 375px;
 }
 
 .stratimg {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background: white;
-    border: solid black 1.5px;
-    border-radius: 6px;
-    font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  border: solid black 1.5px;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
-.howweworkbox {
-    display: flex;
-    width: 375px;
-    flex-wrap: wrap;
-    margin: 0 20px 20px 20px;
-    border-bottom: dotted black 2px;
-    padding-bottom: 20px;
+.howweworkimg {
+  margin-bottom: 20px;
+}
+
+.placesweworkimg {
+  margin-bottom: 20px;
+}
+
+.collaborationimg {
+  margin-bottom: 20px;
+}
+
+/* bottom keybox margins */ 
+
+.placeswework {
+  margin-top: 50px;
+}
+
+.collaboration {
+  margin-top: 50px;
+}
+
+.workingtogether {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* css animations */
+
+button:hover {
+    background: lightgrey;
 }
